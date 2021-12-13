@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- METAS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Insert the description for your website">
+    <meta name="author" content="Abner Santos">
+    <meta name="keywords" content="Insert keywords for your website">
+    <meta http-equiv="refresh" content="180">
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome, gives you 1,608 free icons -->
+    <script src="https://kit.fontawesome.com/721ec727b2.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- Main.js -->
+    <script src="javascript/main.js" defer></script>
+    <title>Titulo</title>
+</head>
+
+<body>
+    <div class="container">
+        <p>Ler quatro números inteiros e apresentar o resultado da adição e multiplicação, baseando-se na utilização do
+            conceito da propriedade distributiva. Ou seja, se forem lidas as variáveis A, B, C, e D, devem ser somadas e
+            multiplicadas A com B, A com C e A com D. Depois B com C, B com D e por fim C com D. Perceba que será
+            necessário efetuar seis operações de adição e seis operações de multiplicação e apresentar doze resultados
+            de saída</p>
+        <label for="">VARIAVEL A:</label>
+        <input type="text" name="" id="var--a">
+        <label for="">VARIAVEL B:</label>
+        <input type="text" name="" id="var--b">
+        <label for="">VARIAVEL C:</label>
+        <input type="text" name="" id="var--c">
+        <label for="">VARIAVEL D:</label>
+        <input type="text" name="" id="var--d">
+        <button type="submit" id="send-data">ENVIAR</button>
+
+        <div class="displayVariaveis">
+            <div class="display" id="var--a-b">
+                <label for="var--a-b">A com B</label>
+                <div class="mult">
+                    <p id="display--mult-a-b">a</p>
+                </div>
+                <div class="sum">
+                    <p id="display--sum-a-b">b</p>
+                </div>
+            </div>
+            <div class="display" id="var--a-c">
+                <label for="var--a-b">A com C</label>
+                <div class="mult">
+                    <p id="display--mult-a-c">a</p>
+                </div>
+                <div class="sum">
+                    <p id="display--sum-a-c">b</p>
+                </div>
+            </div>
+            <div class="display" id="var--a-d">
+                <label for="var--a-b">A com D</label>
+                <div class="mult">
+                    <p id="display--mult-a-d">a</p>
+                </div>
+                <div class="sum">
+                    <p id="display--sum-a-d">b</p>
+                </div>
+            </div>
+            <div class="display" id="var--b-c">
+                <label for="var--a-b">B com C</label>
+                <div class="mult">
+                    <p id="display--mult-b-c">a</p>
+                </div>
+                <div class="sum">
+                    <p id="display--sum-b-c">b</p>
+                </div>
+            </div>
+            <div class="display" id="var--b-d">
+                <label for="var--a-b">B com D</label>
+                <div class="mult">
+                    <p id="display--mult-b-d">a</p>
+                </div>
+                <div class="sum">
+                    <p id="display--sum-b-d">b</p>
+                </div>
+            </div>
+            <div class="display" id="var--c-d">
+                <label for="var--a-b">C com D</label>
+                <div class="mult">
+                    <p id="display--mult-c-d">a</p>
+                </div>
+                <div class="sum">
+                    <p id="display--sum-c-d">b</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

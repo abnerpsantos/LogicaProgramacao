@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "goessner.mdmath",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "aaron-bond.better-comments",
+        "coenraads.bracket-pair-colorizer-2",
+        "naumovs.color-highlight",
+        "kisstkondoros.vscode-gutter-preview",
+        "shd101wyy.markdown-preview-enhanced",
+        "yzhang.markdown-all-in-one",
+        "2gua.rainbow-brackets",
+        "hookyqr.beautify",
+        "dbaeumer.vscode-eslint",
+        "abusaidm.html-snippets"
+    ]
+}

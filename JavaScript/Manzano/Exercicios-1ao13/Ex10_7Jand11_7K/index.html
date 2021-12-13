@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- METAS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Insert the description for your website">
+    <meta name="author" content="Abner Santos">
+    <meta name="keywords" content="Insert keywords for your website">
+    <meta http-equiv="refresh" content="180">
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome, gives you 1,608 free icons -->
+    <script src="https://kit.fontawesome.com/721ec727b2.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- Main.js -->
+    <script src="javascript/main.js" defer></script>
+    <title>Titulo</title>
+</head>
+
+<body>
+    <div class="container">
+        <p>Elaborar um programa que efetue a apresentação do valor da conversão em real de um valor lido em dólar. O
+            programa deve solicitar o valor da cotação do dólar e também a quantidade de dólares disponível com o
+            usuário, para que seja apresentado o valor em moeda brasileira.</p>
+        <div class="small-container">
+            <h2>Conversor de Moedas</h2>
+            <div class="change-btns">
+                <button class="active"id="btn-dolar">DOLAR</button>
+                <button id="btn-real">REAL</button>
+            </div>
+        <div>
+            <div class="moeda dolar active">
+                <label for="">Quantidade de doláres:</label>
+                <input type="text" id="valor--dolar">
+                <label for="">Cotação do dolar:</label>
+                <input type="text" id="cotacao--dolar" maxlength="10">
+                <button type="submit" id="converter--dolar">Converter</button>
+                <div class="display" id="display--dolar"></div>
+            </div>
+            <div class="moeda real">
+                <label for="">Quantidade de Reais:</label>
+                <input type="text" id="valor--real">
+                <label for="">Cotação do real:</label>
+                <input type="text" id="cotacao--real" maxlength="10">
+                <button type="submit" id="converter--real">Converter</button>
+                <div class="display" id="display--real"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

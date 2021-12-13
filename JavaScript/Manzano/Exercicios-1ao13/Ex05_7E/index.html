@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- METAS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Insert the description for your website">
+    <meta name="author" content="Abner Santos">
+    <meta name="keywords" content="Insert keywords for your website">
+    <meta http-equiv="refresh" content="180">
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome, gives you 1,608 free icons -->
+    <script src="https://kit.fontawesome.com/721ec727b2.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- Main.js -->
+    <script src="javascript/main.js" defer></script>
+    <title>Titulo</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="small-container">
+            <p>Efetuar o cálculo e a apresentação do valor de uma prestação em atraso, utilizando a fórmula:</p>
+            <div id="formula">PRESTACAO ← VALOR + (VALOR * TAXA/100) * TEMPO</div>
+        </div>
+        <div class="small-container">
+            <label for="">Insira o valor a ser pago (R$):</label>
+            <input type="text" name="dado" id="valor--pagamento">
+        </div>
+        <div class="small-container">
+            <label for="">Insira a taxa (%):</label>
+            <input type="text" name="dado" id="valor--taxa">
+        </div>
+        <div class="small-container">
+            <label for="">Insira o tempo (Meses):</label>
+            <input type="text" name="dado" id="valor--tempo">
+        </div>
+        <div class="small-container">
+            <button type="submit" id="calcular">CALCULAR</button>
+        </div>
+        <div class="small-container">
+            <label for="display">Valor da prestação:</label>
+            <div class="display"><p id="valor--prestacao">R$ 0</p></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

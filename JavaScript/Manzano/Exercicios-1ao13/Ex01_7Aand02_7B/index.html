@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- METAS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Insert the description for your website">
+    <meta name="author" content="Abner Santos">
+    <meta name="keywords" content="Insert keywords for your website">
+    <meta http-equiv="refresh" content="180">
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome, gives you 1,608 free icons -->
+    <script src="https://kit.fontawesome.com/721ec727b2.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- Main.js -->
+    <script src="javascript/main.js" defer></script>
+    <title>Titulo</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Conversor de Temperatura</h1>
+            <div class="small-container">
+                <input type="radio" name="temperature" id="celsius">
+                <label for="celsius">Celsius</label>
+                <input type="radio" name="temperature" id="fahrenheit">
+                <label for="fahrenheit">fahrenheit</label>
+
+            </div>
+            <div class="small-container">    
+                <input type="text" name="Temperatura" id="temperatura">
+                <button type="submit" value="converter" id="converter">Converter</button>
+            </div>
+
+            <div class="small-container">
+                <div class="display">
+                    <p id="valorConvertido">0º</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(72, 164, 235);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container > * {
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+input,button {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.display {
+    background-color: #cccc;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.display p {
+    color: red;
+    font-size: 26px;
+}
+
+.display::after{
+    content: 'Novo Salário:';
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+}

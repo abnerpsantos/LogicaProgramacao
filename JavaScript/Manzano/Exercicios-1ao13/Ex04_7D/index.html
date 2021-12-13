@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- METAS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Insert the description for your website">
+    <meta name="author" content="Abner Santos">
+    <meta name="keywords" content="Insert keywords for your website">
+    <meta http-equiv="refresh" content="180">
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome, gives you 1,608 free icons -->
+    <script src="https://kit.fontawesome.com/721ec727b2.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- Main.js -->
+    <script src="javascript/main.js" defer></script>
+    <title>Titulo</title>
+</head>
+<body>
+    <div class="container">
+        <p>Efetuar  o  cálculo  da  quantidade  de  litros  de  combustível  gasta    em  uma  viagem,  utilizando  um automóvel  que  faz  12  Km  por  litro.  Para  obter  o  cálculo,  o  usuário  deve  fornecer  o  tempo  gasto <span>(TEMPO)</span> e a velocidade  média <span>(VELOCIDADE)</span> durante  a viagem. Desta forma, será possível obter a distância  percorrida  com  a  fórmula  DISTANCIA ←  TEMPO  *  VELOCIDADE.  Possuindo  o  valor  da distância,  basta  calcular  a  quantidade  de  litros  de  combustível  utilizada  na  viagem  com  a  fórmula LITROS_USADOS ← DISTANCIA / 12. Ao final, o programa deve apresentar os valores da velocidade média  <span>(VELOCIDADE)</span>,  tempo  gasto  na  viagem  <span>(TEMPO)</span>,  a  distancia  percorrida  <span>(DISTANCIA)</span>  e  a quantidade de litros <span>(LITROS_USADOS)</span> utilizada na viagem.
+        </p>
+        <div class="small-container data-container">
+            <label for="tempo">Insira o Tempo Gasto (em Horas):</label>
+            <input type="text" name="dado" id="tempo--gasto">
+            <label for="velocidade-media">Insira a velocidade Média (em Km/h):</label>
+            <input type="text" name="dado" id="velocidade--media">
+            <button type="submit" id="send-data">ENVIAR DADOS</button>
+        </div>
+        <div class="small-container">
+            <label for="distancia" id="label--volume">Distância:</label>
+            <div id="display--distancia">
+            </div>
+            <label for="distancia" id="label--volume">Listros Usados:</label>
+            <div id="display--litros">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
